@@ -1,20 +1,32 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: $Font;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    font-weight: $Medium;
-    color: $Color-Secondary-Light;
-    background-color: $Color-White;
+  font-family: $Font;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: $Medium;
+  color: $Color-Secondary-Light;
+  background-color: $Color-White;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url(/assets/shared/pattern-square.svg),
+    url(/assets/shared/pattern-square.svg);
+
+  background-position: calc(50% + 71.5rem) 0, calc(50% - 71.5rem) 75rem;
+  background-repeat: no-repeat;
 }
