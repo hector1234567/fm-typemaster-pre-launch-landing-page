@@ -10,4 +10,12 @@
     flex-wrap: wrap;
     gap: 7.2rem 0;
   }
+
+  @include respond(mobile) {
+    flex-direction: column;
+    gap: 6.4rem;
+    align-items: center;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+  }
 }

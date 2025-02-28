@@ -4,4 +4,10 @@
       @content;
     }
   }
+
+  @if $breakpoint == mobile {
+    @media (max-width: 700px) {
+      @content;
+    }
+  }
 }

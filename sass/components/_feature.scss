@@ -3,6 +3,14 @@
     width: 50%;
     padding-right: 6.9rem;
   }
+  @include respond(mobile) {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__icon {
     width: 6.5rem;
@@ -16,6 +24,10 @@
 
     @include respond(tablet) {
       margin-bottom: 4rem;
+    }
+
+    @include respond(mobile) {
+      margin-bottom: 4.8rem;
     }
   }
 

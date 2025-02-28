@@ -9,6 +9,11 @@
     margin-bottom: 6.2rem;
   }
 
+  @include respond(mobile) {
+    margin-top: 2.3rem;
+    margin-bottom: 6.4rem;
+  }
+
   &__container {
     @include container;
 
