@@ -3,4 +3,9 @@
   max-width: 117rem;
   padding-left: 3rem;
   padding-right: 3rem;
+
+  @include respond(tablet) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }

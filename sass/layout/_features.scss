@@ -5,4 +5,9 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 3rem;
+
+  @include respond(tablet) {
+    flex-wrap: wrap;
+    gap: 7.2rem 0;
+  }
 }

@@ -29,4 +29,8 @@ main {
 
   background-position: calc(50% + 71.5rem) 0, calc(50% - 71.5rem) 75rem;
   background-repeat: no-repeat;
+
+  @include respond(tablet) {
+    background-image: none;
+  }
 }
