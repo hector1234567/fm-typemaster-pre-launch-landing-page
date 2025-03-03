@@ -181,6 +181,9 @@ main {
     padding-right: 2.4rem;
   }
 }
+.nav__logo {
+  display: flex;
+}
 
 .gallery {
   width: 100%;
